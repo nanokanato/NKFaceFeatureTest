@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309092E01B438F6A003252F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309092DF1B438F6A003252F4 /* main.m */; };
+		309092EB1B438F6A003252F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309092EA1B438F6A003252F4 /* Images.xcassets */; };
+		309093071B439071003252F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309093041B439071003252F4 /* AppDelegate.m */; };
+		309093081B439071003252F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309093061B439071003252F4 /* ViewController.m */; };
+		3090930F1B43911F003252F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3090930B1B43911F003252F4 /* Default-568h@2x.png */; };
+		309093101B43911F003252F4 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3090930C1B43911F003252F4 /* Default-667h@2x.png */; };
+		309093111B43911F003252F4 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3090930D1B43911F003252F4 /* Default-736h@3x.png */; };
+		309093121B43911F003252F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3090930E1B43911F003252F4 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		309092DA1B438F6A003252F4 /* NKFaceFeature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKFaceFeature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309092DE1B438F6A003252F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309092DF1B438F6A003252F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309092EA1B438F6A003252F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		309093031B439071003252F4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		309093041B439071003252F4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309093051B439071003252F4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		309093061B439071003252F4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3090930B1B43911F003252F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3090930C1B43911F003252F4 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		3090930D1B43911F003252F4 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		3090930E1B43911F003252F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309092D71B438F6A003252F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309092D11B438F6A003252F4 = {
+			isa = PBXGroup;
+			children = (
+				309092DC1B438F6A003252F4 /* NKFaceFeature */,
+				309092DB1B438F6A003252F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309092DB1B438F6A003252F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309092DA1B438F6A003252F4 /* NKFaceFeature.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309092DC1B438F6A003252F4 /* NKFaceFeature */ = {
+			isa = PBXGroup;
+			children = (
+				309093031B439071003252F4 /* AppDelegate.h */,
+				309093041B439071003252F4 /* AppDelegate.m */,
+				309093051B439071003252F4 /* ViewController.h */,
+				309093061B439071003252F4 /* ViewController.m */,
+				309092DD1B438F6A003252F4 /* Supporting Files */,
+			);
+			path = NKFaceFeature;
+			sourceTree = "<group>";
+		};
+		309092DD1B438F6A003252F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				309093091B43911F003252F4 /* Image */,
+				309092EA1B438F6A003252F4 /* Images.xcassets */,
+				309092DE1B438F6A003252F4 /* Info.plist */,
+				309092DF1B438F6A003252F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309093091B43911F003252F4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3090930A1B43911F003252F4 /* LaunchScreen */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3090930A1B43911F003252F4 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3090930B1B43911F003252F4 /* Default-568h@2x.png */,
+				3090930C1B43911F003252F4 /* Default-667h@2x.png */,
+				3090930D1B43911F003252F4 /* Default-736h@3x.png */,
+				3090930E1B43911F003252F4 /* Default@2x.png */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309092D91B438F6A003252F4 /* NKFaceFeature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309092FD1B438F6A003252F4 /* Build configuration list for PBXNativeTarget "NKFaceFeature" */;
+			buildPhases = (
+				309092D61B438F6A003252F4 /* Sources */,
+				309092D71B438F6A003252F4 /* Frameworks */,
+				309092D81B438F6A003252F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKFaceFeature;
+			productName = NKFaceFeature;
+			productReference = 309092DA1B438F6A003252F4 /* NKFaceFeature.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309092D21B438F6A003252F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "nanoka____";
+				TargetAttributes = {
+					309092D91B438F6A003252F4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 309092D51B438F6A003252F4 /* Build configuration list for PBXProject "NKFaceFeature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 309092D11B438F6A003252F4;
+			productRefGroup = 309092DB1B438F6A003252F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309092D91B438F6A003252F4 /* NKFaceFeature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309092D81B438F6A003252F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309092EB1B438F6A003252F4 /* Images.xcassets in Resources */,
+				309093101B43911F003252F4 /* Default-667h@2x.png in Resources */,
+				309093121B43911F003252F4 /* Default@2x.png in Resources */,
+				3090930F1B43911F003252F4 /* Default-568h@2x.png in Resources */,
+				309093111B43911F003252F4 /* Default-736h@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309092D61B438F6A003252F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309093081B439071003252F4 /* ViewController.m in Sources */,
+				309093071B439071003252F4 /* AppDelegate.m in Sources */,
+				309092E01B438F6A003252F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		309092FB1B438F6A003252F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		309092FC1B438F6A003252F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		309092FE1B438F6A003252F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NKFaceFeature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		309092FF1B438F6A003252F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NKFaceFeature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309092D51B438F6A003252F4 /* Build configuration list for PBXProject "NKFaceFeature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309092FB1B438F6A003252F4 /* Debug */,
+				309092FC1B438F6A003252F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309092FD1B438F6A003252F4 /* Build configuration list for PBXNativeTarget "NKFaceFeature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309092FE1B438F6A003252F4 /* Debug */,
+				309092FF1B438F6A003252F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 309092D21B438F6A003252F4 /* Project object */;
+}

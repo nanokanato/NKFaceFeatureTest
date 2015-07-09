@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		305D00551B4E762000F00B39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		309092DA1B438F6A003252F4 /* NKFaceFeature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKFaceFeature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309092DE1B438F6A003252F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		309092DF1B438F6A003252F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 				309093041B439071003252F4 /* AppDelegate.m */,
 				309093051B439071003252F4 /* ViewController.h */,
 				309093061B439071003252F4 /* ViewController.m */,
+				305D00551B4E762000F00B39 /* README.md */,
 				309092DD1B438F6A003252F4 /* Supporting Files */,
 			);
 			path = NKFaceFeature;
